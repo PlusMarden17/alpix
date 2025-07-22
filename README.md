@@ -1,13 +1,14 @@
 # Alpix Operating System
 
-**AlpixOS** — легка операційна система написана з нуля на мові програмування Nim. Націлена на простоту та стабільність з власним ядром
+**AlpixOS** is a lightweight operating system written from scratch in the Nim programming language.  
+Focused on simplicity and stability, powered by its own custom kernel.
 
-## 🧩 Вбудовані інструменти
-- **Crate** — програмний менеджер для завантаження та керування застосунками на пк (В розробці)
-- **Juice** — скриптова мова програмування для написання протих консольних програм для Alpix (Задумка)
+## 🧩 Built-in Tools
+- **Crate** — app manager for installing and managing desktop applications (in development)
+- **Juice** — scripting language for creating simple console-based programs for Alpix (concept stage)
 
-## 📦 Приклад використання Crate
-(Раній концепт, у розробці)
+## 📦 Example usage of Crate
+(Early concept, in development)
 ```bash
 crate add myapp.cat
 crate mov myapp apps/tools/
