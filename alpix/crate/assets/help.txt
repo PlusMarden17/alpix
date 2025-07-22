@@ -1,0 +1,20 @@
+Crate - App Manager tool for AlpixOS
+
+USAGE:
+    crate <command> [options]
+
+COMMANDS:
+    add <app.cat>     Install application from .cat file
+    rem <appname>     Remove installed application  
+    mov <app> <dir>   Move app to different directory
+    info <appname>    Show app information from INFO.txt
+    list              List all installed apps
+    update <appname>  Update specific application
+    help              Show this help message
+
+EXAMPLES:
+    crate add myapp.cat
+    crate mov TextEditor ~/Apps/
+    crate info Calculator
+
+Created by Coconut153
